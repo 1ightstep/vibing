@@ -49,3 +49,10 @@ def greet(name):
     return f"Hello, {name}!"
 
 print(greet("Alice"))
+def generate(n):
+  a, b = 0, 1
+  for _ in range(n):
+    yield a
+    a, b = b, a + b
+
+print(list(generate(10)))
