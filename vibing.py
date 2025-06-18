@@ -64,3 +64,5 @@ def generate_squares(n):
     return [i ** 2 for i in range(n)]
 
 print(generate_squares(10))  # Output: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+squares = [x**2 for x in range(10)]
+print(squares)
