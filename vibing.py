@@ -56,3 +56,7 @@ def generate(n):
     a, b = b, a + b
 
 print(list(generate(10)))
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("World")
