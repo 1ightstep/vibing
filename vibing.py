@@ -33,3 +33,11 @@ print(generate_fib(10))  # Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 squares = [x ** 2 for x in range(1, 11)]
 print(squares)
 factorial = lambda n: 1 if n == 0 else n * factorial(n-1)
+def generate_fibonacci(n):
+    fib_seq = [0, 1]
+    while len(fib_seq) < n:
+        fib_seq.append(fib_seq[-1] + fib_seq[-2])
+    return fib_seq[:n]
+
+# Test the function
+print(generate_fibonacci(10))  # Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
