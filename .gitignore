@@ -1,0 +1,22 @@
+# Compiled Python bytecode files
+*.pyc
+
+# Python cache directories
+__pycache__/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment-specific settings
+.env
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs and temporary files
+*.log
+*.tmp
