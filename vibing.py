@@ -11,3 +11,7 @@ for _ in range(10):
     print(a)
     a, b = b, a + b
 f = lambda x: [i ** 2 for i in range(x)]
+def greet(name):
+  print(f"Hello, {name}!")
+
+greet("Alice")
