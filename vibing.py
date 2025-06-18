@@ -15,3 +15,4 @@ def greet(name):
   print(f"Hello, {name}!")
 
 greet("Alice")
+print([x**2 for x in range(1, 11)])
