@@ -60,3 +60,7 @@ def greet(name):
     print(f"Hello, {name}!")
 
 greet("World")
+def generate_squares(n):
+    return [i ** 2 for i in range(n)]
+
+print(generate_squares(10))  # Output: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
