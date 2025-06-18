@@ -32,3 +32,4 @@ def generate_fib(n):
 print(generate_fib(10))  # Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 squares = [x ** 2 for x in range(1, 11)]
 print(squares)
+factorial = lambda n: 1 if n == 0 else n * factorial(n-1)
