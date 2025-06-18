@@ -77,3 +77,11 @@ def greet(name):
     print(f"Hello, {name}!")
 
 greet("Alice")
+def generate_fibonacci(n):
+    fib = [0, 1]
+    while len(fib) < n:
+        fib.append(fib[-1] + fib[-2])
+    return fib[:n]
+
+# Example usage:
+print(generate_fibonacci(10))  # Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
