@@ -97,3 +97,7 @@ def generate_squares(numbers):
 # Example usage:
 numbers = [1, 2, 3, 4, 5]
 print(generate_squares(numbers))  # Output: [1, 4, 9, 16, 25]
+def greet(name):
+  print(f"Hello, {name}!")
+
+greet("Alice")
